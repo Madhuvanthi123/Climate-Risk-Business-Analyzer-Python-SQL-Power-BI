@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                revenue   R-squared:                       0.103
+Model:                            OLS   Adj. R-squared:                  0.101
+Method:                 Least Squares   F-statistic:                     54.95
+Date:                Mon, 14 Sep 2026   Prob (F-statistic):           2.57e-23
+Time:                        22:37:33   Log-Likelihood:                -4255.7
+No. Observations:                 960   AIC:                             8517.
+Df Residuals:                     957   BIC:                             8532.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                    149.1577      2.344     63.627      0.000     144.557     153.758
+cri_score                -73.3173      8.718     -8.410      0.000     -90.426     -56.208
+extreme_weather_events     0.1847      0.627      0.295      0.768      -1.045       1.415
+==============================================================================
+Omnibus:                      121.719   Durbin-Watson:                   0.283
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              167.260
+Skew:                          -0.995   Prob(JB):                     4.78e-37
+Kurtosis:                       3.467   Cond. No.                         31.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,2 @@
+metric,n_high_risk,n_low_risk,mean_high_risk,mean_low_risk,t_statistic,p_value,significant_at_0.05
+revenue,27,933,108.76,126.98,-3.391,0.00217,True
